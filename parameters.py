@@ -1,12 +1,12 @@
 # parameters of PSO optimization algorithm
-number_of_particles = 40  # particle count
-varNum = 5  # variable count
-damping_rate_W = 0.9  # inertia damper
-max_of_variable = 8  # max domain
-min_of_variable = 0  # min domain
+number_of_particles = 20  # particle count
+varNum = 2  # variable count
+damping_rate_W = 0.95  # inertia damper
+max_of_variable = 500  # max domain
+min_of_variable = 1  # min domain
 satisfaction_cost_number = 1.0e-200  # satisfaction point
 W = 0.95  # inertia
-C1 = 1.4962  # cognitive (particle)
-C2 = 2.4962  # social (swarm)
-max_iteration_number = 2  # max iteration
+C1 = 0.2  # cognitive (particle)
+C2 = 0.8  # social (swarm)
+max_iteration_number = 50000  # max iteration
 # end parameters of PSO optimization
